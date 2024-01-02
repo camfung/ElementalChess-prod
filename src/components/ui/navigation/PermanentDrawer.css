@@ -1,0 +1,18 @@
+/* Define a CSS class to change the cursor to a link cursor */
+.link-cursor {
+    cursor: pointer;
+  }
+
+
+
+  /* Default styles for app-bar */
+.app-bar {
+  display: none;
+}
+
+/* Media query for viewport width less than 480px */
+@media (max-width: 479px) {
+  .app-bar {
+    display: block;
+  }
+}
